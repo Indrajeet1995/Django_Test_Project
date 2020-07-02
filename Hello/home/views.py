@@ -16,9 +16,9 @@ def about(request):
     return render(request, 'about.html')
     # return HttpResponse("This is page is About Us")
 
-def services(request):
+def products(request):
     # return HttpResponse("These are our services")
-    return render(request, 'services.html') 
+    return render(request, 'products.html') 
 
 def contact(request):
     # return HttpResponse("This is our Contact Page") 
